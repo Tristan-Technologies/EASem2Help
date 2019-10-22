@@ -16,11 +16,11 @@ In response to a need for easily available energy sources in humanitarian crisis
 
 # Introduction
 
-In the context of disaster relief, Solar energy is a logical choice to turn to in order to meet the energy demands of humanitarian relief efforts. As opposed to Internal Combustion Engine Generators (examples of which are diesel and petrol), which require a steady supply of fuel, solar energy requires no such consumables, dramatically simplifying the logistical support required to adopt it as an energy solution. It should also be mentioned that this freed up logistical capacity can be used for much more valuable purposes in the humanitarian relief effort.
+In the context of disaster relief, Solar energy is a logical choice to turn to in order to meet the energy demands of humanitarian relief efforts. As opposed to Internal Combustion Engine Generators (examples of which are diesel and petrol), which require a steady supply of fuel, solar energy requires no such consumables, dramatically simplifying the logistical support required to adopt it as an energy solution. This freed up logistical capacity can then be used for much more valuable purposes in the humanitarian relief effort.
 
 
 
-A good example to consider would be the disaster in Puerto Rico. After Hurricane Maria, the Automaker Tesla offered its solar power systems to aid in the disaster relief effort, powering a Children's hospital which serves 3000. The logistical simplicity of Solar allows it to be deployed in a matter of hours, greatly increasing its efficacy.
+A good example would be Puerto Rico after Hurricane Maria. The automaker Tesla offered its solar power systems to aid in the disaster relief effort, powering a Children's hospital which serves 3000. The logistical simplicity of Solar allows it to be deployed in a matter of hours, greatly increasing its efficacy and restoring power rapidly.
 
 
 
