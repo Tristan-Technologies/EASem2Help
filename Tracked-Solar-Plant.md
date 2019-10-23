@@ -5,7 +5,7 @@
 <details>
 <summary>Tracked-Solar-Plant</summary>
 <ul>
-<li>Project Abstract [Heading link](https://github.com/.md "Heading link")</li>
+<li>Project Abstract </li>
 <ul>
 <li>Introduction </li>
 <li> Members </li>
