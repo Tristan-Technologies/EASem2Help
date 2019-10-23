@@ -11,7 +11,11 @@
   
  </li>
 <ul>
-<li>Introduction </li>
+<li>
+  
+ [Introduction](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#introduction)
+  
+  </li>
 <li> Members </li>
 </ul>
 <li> Design process</li>
