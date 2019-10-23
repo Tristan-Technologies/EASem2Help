@@ -5,7 +5,11 @@
 <details>
 <summary>Tracked-Solar-Plant</summary>
 <ul>
-<li>[Project Abstract](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#project-abstract) </li>
+<li>
+  
+  [Project Abstract](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#project-abstract)
+  
+  </li>
 <ul>
 <li>Introduction </li>
 <li> Members </li>
