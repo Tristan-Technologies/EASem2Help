@@ -1,4 +1,4 @@
-# _Tracked-Solar-Plant_
+# _Tracked-Solar-Plant_  :city_sunset:
 
 **Table of Contents**
 
