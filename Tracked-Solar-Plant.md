@@ -31,17 +31,14 @@
 </ul>
 </details>
 
-# Project Abstract
-
-
-
+# **Project Abstract**
 
 
 In response to a need for easily available energy sources in humanitarian crisis situations, the feasibility of a mobile solar energy generator, mounted on a mobile, ruggedized platform is investigated. The proposed system is designed for both immediate relief in the period right after the disaster as well as extended use, as a quasi permanent energy production installation. It may also be used to complement existing energy generation sources like Diesel Generators, to form a hybrid energy solution.
 
 
 
-# Introduction
+# **Introduction**
 
 In the context of disaster relief, Solar energy is a logical choice to turn to in order to meet the energy demands of humanitarian relief efforts. As opposed to Internal Combustion Engine Generators (examples of which are diesel and petrol), which require a steady supply of fuel, solar energy requires no such consumables, dramatically simplifying the logistical support required to adopt it as an energy solution. This freed up logistical capacity can then be used for much more valuable purposes in the humanitarian relief effort.
 
@@ -57,7 +54,7 @@ Having mentioned all of this, it has to be noted that Solar power does not form 
 
 Then there is the question of getting the PV panels to where they need to be, which depending on their generation capacity, may be fairly formidable in size. If PV panels were to be deployed to Nepal after an earthquake, for an instance, they would need some method of traversing the mountainous terrain which is characteristic of the Nepalese environment.
 
-## Members
+## **Members**
 * Camilla
 * Tristan
 * Yong Ziab
@@ -65,6 +62,6 @@ Then there is the question of getting the PV panels to where they need to be, wh
 
 
 
-# Design process
+# **Design process**
 #### Concerned
 *  Lack of energy after disaster
