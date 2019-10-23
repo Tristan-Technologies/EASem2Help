@@ -14,9 +14,12 @@
 <li>
   
  [Introduction](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#introduction)
+ </li>
+<li> 
   
-  </li>
-<li> Members </li>
+  [Members](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#members)
+ 
+</li>
 </ul>
 <li> Design process</li>
 <ul>
