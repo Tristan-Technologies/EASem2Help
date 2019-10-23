@@ -21,7 +21,9 @@
  
 </li>
 </ul>
-<li> Design process</li>
+<li> 
+  
+  [Design process](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#design-process)</li>
 <ul>
   <li>Concerned</il>
   <li>Design</il>
