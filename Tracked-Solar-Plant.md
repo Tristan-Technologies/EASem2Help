@@ -6,29 +6,59 @@
 <summary>Tracked-Solar-Plant</summary>
 <ul>
 <li>
-  
+
   [Project Abstract](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#project-abstract)
-  
+
  </li>
 <ul>
 <li>
-  
+
  [Introduction](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#introduction)
  </li>
-<li> 
-  
+<li>
+
   [Members](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#members)
- 
+
 </li>
 </ul>
-<li> 
-  
+<li>
+
   [Design process](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#design-process)</li>
 <ul>
   <li>Concerned</il>
   <li>Design</il>
   <li>implement</il>
+
 </ul>
+
+<br>
+<li>
+  Reviews and Processes </li>
+  <ul>
+    <li>Python</li>
+    <li>ESP32 Setup and Configuration</li>
+  </ul>
+
+<br>
+<li>
+  Analysis of System </li>
+  <ul>
+    <li>Solar Panel Output</li>
+      <ul>
+        <li>Geodetic Variation of Solar Irradiance</li>
+        <li>Atmospheric Attenuation Model</li>
+        <li>Standardised Local Model Coefficients</li>
+        <li>Panel Performance by Locality</li>
+        <li>Calculation Files and Data</li>
+      </ul>
+      <br>
+    <li>Ground Vehicle Performance</li>
+      <ul>
+        <li>Range and Endurance</li>
+        <li>Mechanical Loading Limitations</li>
+      </ul>
+
+
 </details>
 
 # **Project Abstract**
