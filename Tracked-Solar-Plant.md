@@ -35,7 +35,7 @@
 <li>
   Reviews and Processes </li>
   <ul>
-    <li>Python</li>
+    <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#Python+Programming">Python Programming</a></li>
     <li>ESP32 Setup and Configuration</li>
   </ul>
 
@@ -95,3 +95,11 @@ Then there is the question of getting the PV panels to where they need to be, wh
 # **Design process**
 #### Concerned
 *  Lack of energy after disaster
+
+
+# **Reviews and Processes**
+
+#### Python Programming
+Read our team's review for programming in the Python Language! Our Mobile Solar Energy system will use Python in its controller unit :)
+
+[Link to Tristan's Review](../blob/master/python%20stuff.md)
