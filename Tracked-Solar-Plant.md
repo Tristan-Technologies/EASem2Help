@@ -102,4 +102,4 @@ Then there is the question of getting the PV panels to where they need to be, wh
 #### Python Programming
 Read our team's review for programming in the Python Language! Our Mobile Solar Energy system will use Python in its controller unit :)
 
-[Link to Tristan's Review](../blob/master/python%20stuff.md)
+[Link to Tristan's Review](https://github.com/Tristan-Technologies/EASem2Help/blob/master/python%20stuff.md)
