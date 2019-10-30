@@ -23,7 +23,7 @@ We were asked to code a simple game of 'Space Invaders', which consisted of an a
 
 Making reference to the previous program as well as the lecture slides, it was a relatively straight forward process to program the entire Space Invaders game within about 10 to 15 minutes or so. The if criteria that controls the spaceship x position was modified to prevent exceeding a value of 4, or going less than 0. Moving to either extrema of the 5x5 matrix would cause the spaceship to stay there, as opposed to giving an error message (illegal value). Another approach would have been to program the space ship to jumping to the other side of the matrix. This could be a achieved by zeroing the x coordinate after it reaches 4.
 
-It ultimately took a few tries to get the program working satisfactorily, but this was no issue since we had the microbit board on hand and uploading code to it was a quick process. The relevant code will be attached as well for reference.
+It ultimately took a few tries to get the program working satisfactorily, but this was no issue since we had the microbit board on hand and uploading code to it was a quick process. The relevant code will be attached [here](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Python_Code_and_Reviews/python_space_invaders.py.)
 
 ### Recommended Videos For Thonny IDE
 
