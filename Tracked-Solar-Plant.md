@@ -36,7 +36,7 @@
   Reviews and Processes </li>
   <ul>
     <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#Python-Programming">Python Programming</a></li>
-    <li>ESP32 Setup and Configuration</li>
+    <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/esp32.md">ESP32 Setup and Configuration</a></li>
   </ul>
 
 <br>
