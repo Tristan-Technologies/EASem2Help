@@ -37,7 +37,7 @@ Overall, I feel that this is a good starting point for me, especially as a Compu
 
 # Resources
 
-## Flashing the ESP32
+## Flashing the ESP32: You can look [here](https://github.com/Tristan-Technologies/EASem2Help/tree/master/ESP_32) to see what we did
 
 1. Tool used for flashing the ESP32: https://github.com/espressif/esptool
 
@@ -51,3 +51,5 @@ Created by the man behind Thonny. Great for getting acquainted with the IDE, not
 
 2. https://www.youtube.com/watch?v=rfscVS0vtbw
 Extremely comprehensive guide on Python. Best taken in short blocks, for it is well over 4 hours long and I doubt many would want to sit for that long at a time.
+
+Do note that there are some differences between Python and MicroPython. To spare you from a wall of text, you can look [here](https://docs.micropython.org/en/latest/genrst/index.html).
