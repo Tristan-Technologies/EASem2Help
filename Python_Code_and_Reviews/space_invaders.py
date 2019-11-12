@@ -40,7 +40,7 @@ while True:
         score += 1
 
     # Collision detection
-    if alien_y == 4 and alien_x == craft_x:
+    if alien_x == craft_x and alien_y == 4:
         break
 
     # Set game speed
