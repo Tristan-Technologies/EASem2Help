@@ -22,15 +22,16 @@ while True:
     display.set_pixel(craft_x, 4, 9)
     display.set_pixel(alien_x, alien_y, 5)
 
-    # Detect user input
-    if button_a.is_pressed() and craft_x > 0:
-        craft_x = craft_x - 1
-
-    if button_b.is_pressed() and craft_x < 4:
-        craft_x = craft_x + 1
-
     # Making sure the alien craft actually moves
     alien_y = alien_y + 1
+
+    # Detect user input
+    # This moves the spacecraft left
+    if button_a.is_pressed() and craft_x > 0:
+        craft_x = craft_x - 1
+    # This moves the spacecraft right
+    if button_b.is_pressed() and craft_x < 4:
+        craft_x = craft_x + 1
 
     # Sending the next alien craft after the spacecraft successfully avoids the previous alien craft and add to the player's score
     if alien_y > 4:
@@ -43,7 +44,7 @@ while True:
         break
 
     # Set game speed
-    sleep(250)
+    sleep(300)
 
 # End of game and score display
 display.scroll("GAME OVER! SCORE: ")
