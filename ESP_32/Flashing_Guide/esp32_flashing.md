@@ -40,4 +40,4 @@ The highlighted section indicates the command entered for this particular instan
 
 ![Flashing Sucessful](../Flashing_Guide/Pictures/sucessful.PNG)
 
-It should also now be possible to run commands to verify that the board is functioning as per expected on Micropython.
+It should also now be possible to run commands to verify that the board is functioning as expected in Micropython. You can write simple programmes to test the pins. A breadboard with a simple LED and resistor in series linked to the pin being tested would suffice, though a multimeter is also suitable for detecting voltage output from a pin. Do take note to probe the ESP32's ground with your multimeter's negative probe to create the appropriate reference point for detecting a signal output.
