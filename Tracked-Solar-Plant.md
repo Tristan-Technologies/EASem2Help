@@ -1,9 +1,9 @@
-# _Mine Shaft Probe_  :city_sunset:
+# _Tracked-Solar-Plant_  :city_sunset:
 
 **Table of Contents**
 
 <details>
-<summary>Mine Shaft Probe</summary>
+<summary>Tracked-Solar-Plant</summary>
 <ul>
 <li>
 
@@ -33,17 +33,25 @@
 
 <br>
 <li>
-  Reviews and Usage Guides </li>
+  Reviews and Processes </li>
   <ul>
-    <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/Python_Code_and_Reviews/Main_Python.md#python-programming">Python Programming</a></li>
-    <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/ESP32_main.md">ESP32 Setup and Usage</a></li>
+    <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#Python-Programming">Python Programming</a></li>
+    <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/esp32.md">ESP32 Setup and Configuration</a></li>
   </ul>
 
 <br>
 <li>
   Analysis of System </li>
-
-<br>
+  <ul>
+    <li>Solar Panel Output</li>
+      <ul>
+        <li>Geodetic Variation of Solar Irradiance</li>
+        <li>Atmospheric Attenuation Model</li>
+        <li>Standardised Local Model Coefficients</li>
+        <li>Panel Performance by Locality</li>
+        <li>Calculation Files and Data</li>
+      </ul>
+      <br>
     <li>Ground Vehicle Performance</li>
       <ul>
         <li>Range and Endurance</li>
@@ -90,3 +98,12 @@ Then there is the question of getting the PV panels to where they need to be, wh
 
 
 # **Reviews and Processes**
+
+#### Python Programming
+Read our team's review for programming in the Python Language! Our Mobile Solar Energy system will use Python in its controller unit :)
+
+[Link to Tristan's Review](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Python_Code_and_Reviews/python%20stuff.md)
+
+[Link to Fang Qian's Review](https://docs.google.com/document/d/1tqq-6V65ZtI57ZEuY4eLr2UzgipWy-tFuL6X0YaeYA4/edit?usp=sharing)
+
+[Link to Camilla's Review](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Python_Code_and_Reviews/Python%20Review_Camille.md)
