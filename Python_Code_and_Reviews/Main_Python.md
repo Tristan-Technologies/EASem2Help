@@ -7,4 +7,4 @@ Read our team's review for programming in the Python Language! Our Mobile Solar 
 
 [Link to Camilla's Review](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Python_Code_and_Reviews/Reviews/Python%20Review_Camille.md)
 
-[Link to Yong Ziab's Review](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Python_Code_and_Reviews/Reviews/Python_Stuff(Yong_Ziab).md)
+[Link to Yong Ziab's Review](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Python_Code_and_Reviews/Reviews/Python_Stuff_Yong_Ziab.md)
