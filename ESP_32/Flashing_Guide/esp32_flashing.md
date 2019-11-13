@@ -6,6 +6,7 @@ Firstly, **Hold the BOOT button while plugging in the board into the laptop, and
 
 ![COM Port](../Flashing_Guide/Pictures/COM_port.PNG)
 
+*For this step, note that the computer does not see the ESP32 directly, but instead sees the chip doing the translation between USB and UART*
 The board should be registered as a 'USB to UART Bridge', and in this case, interfacing on COM12. This port number will be needed later.
 
 After finding which COM Port the board is on, the latest Micropython firmware should be downloaded from the [Micropython Page](https://micropython.org/download#esp32). Depending on your board configuration, select one of the options and download it.
