@@ -6,7 +6,7 @@ Firstly, **Hold the BOOT button while plugging in the board into the laptop, and
 
 ![COM Port](../Flashing_Guide/Pictures/COM_port.PNG)
 
-The board should be registered as a 'USB to UART Bridge', and on this case, is interfacing on COM12. This port number will be needed later.
+The board should be registered as a 'USB to UART Bridge', and in this case, interfacing on COM12. This port number will be needed later.
 
 After finding which COM Port the board is on, the latest Micropython firmware should be downloaded from the [Micropython Page](https://micropython.org/download#esp32). Depending on your board configuration, select one of the options and download it.
 
@@ -32,7 +32,7 @@ Upon sucessfully completing the wipe, the command prompt will indicate the above
 
 `esptool.py --chip esp32 --port COMxx write_flash -z 0x1000 yyyyyzzzzzz.bin`
 
-where 'xx' is the COM Port number, and yyyyyzzzzz.bin is the file name of the firmware previously downloaded.
+where 'xx' is the COM Port number, and yyyyyzzzzz.bin is the file name of the firmware previously downloaded. If typing out the firmware file name does not work, try dragging and dropping the firmware file from File Explorer into the command to autocomplete the file path to the firmware file.
 
 ![Firmware Erase](../Flashing_Guide/Pictures/flash.PNG)
 
