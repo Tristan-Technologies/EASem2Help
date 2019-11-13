@@ -28,7 +28,7 @@ to erase the previous firmware, where 'xx' is the port number on which the ESP32
 
 ![Firmware Erase](../Flashing_Guide/Pictures/erase.PNG)
 
-Upon sucessfully completing the wipe, the command prompt will indicate the above output, which marks the beginning of the next step, which is flashing in the micropython firmware. To flash the firmware, firstly change Command prompts working directory to the one where the firmware is stored (this can be done by right clicking on the folder, selecting properties, and copying the folder path, followed by entering `cd` and pasting the folder path there). Subsequently, enter
+Upon successfully completing the wipe, the command prompt will indicate the above output, which marks the beginning of the next step, which is flashing in the micropython firmware. To flash the firmware, firstly change Command prompts working directory to the one where the firmware is stored (this can be done by right clicking on the folder, selecting properties, and copying the folder path, followed by entering `cd` and pasting the folder path there). Subsequently, enter
 
 `esptool.py --chip esp32 --port COMxx write_flash -z 0x1000 yyyyyzzzzzz.bin`
 
