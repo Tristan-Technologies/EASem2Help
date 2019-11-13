@@ -3,7 +3,7 @@
 **Table of Contents**
 
 <details>
-<summary>Tracked-Solar-Plant</summary>
+<summary>Mine Shaft Probe</summary>
 <ul>
 <li>
 
@@ -42,16 +42,8 @@
 <br>
 <li>
   Analysis of System </li>
-  <ul>
-    <li>Solar Panel Output</li>
-      <ul>
-        <li>Geodetic Variation of Solar Irradiance</li>
-        <li>Atmospheric Attenuation Model</li>
-        <li>Standardised Local Model Coefficients</li>
-        <li>Panel Performance by Locality</li>
-        <li>Calculation Files and Data</li>
-      </ul>
-      <br>
+
+<br>
     <li>Ground Vehicle Performance</li>
       <ul>
         <li>Range and Endurance</li>
