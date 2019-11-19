@@ -1,4 +1,4 @@
-# _Mine Shaft Probe_  :city_sunset:
+# _Mine Shaft Probe_  :mount_fuji:
 
 **Table of Contents**
 
