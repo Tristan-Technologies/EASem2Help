@@ -7,7 +7,7 @@
 <ul>
 <li>
 
-  [Project Abstract](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#project-abstract)
+  [Project Abstract](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#project-abstract)  :page_with_curl:
 
  </li>
 <ul>
@@ -23,14 +23,23 @@
 </ul>
 <li>
 
-  [Design process](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#design-process)</li>
-<ul>
+  [Design process](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#design-process)  :bulb:</li>
+<ul>  
   <li>Concerned</il>
   <li>Design</il>
   <li>implement</il>
 
 </ul>
-
+<li>
+  
+  [Interface](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Interface.md)  :bookmark_tabs:
+  
+  </li>
+  <ul>
+  <li>Pin Configuration</li>
+  <li>Color Code</li>
+  <li>Schematic Drawing </li>
+  </ul>
 <br>
 <li>
   Reviews and Usage Guides </li>
