@@ -7,11 +7,16 @@ While the tank chassis did not come with any instruction manual itself, there wa
 
 *(Camillia add in the breakdown and the picture of all the parts together pls big thank -tristan)*
 
+## Installation steps:
+### 1 Install load bearing wheel
+![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/WeChat%20Image_20200211154000.jpg)
 
-Following the manual, the first components to be assembled was the sprocket assembly. These consisted of fitting 3 copper standoffs onto a an aluminum sprocket plate, before securing those with 2 M3 x *(help I forgot what)* screws.
+1.**Install the load bearing wheel at the round hole circled in yellow**
 
-*Insert picture here*
+![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/2.png)
 
- Following this step, the motor connector is slid into the 2 concentric holes, which are fitted with flanged bearings. The assembly is capped of with a single M3 x *(help I forgot again)* screws. This part was slightly trickier since the connector had a tendency to slip as the screw was tightened. In response to this, we just gripped the rod with our shirts or other fabric when tightening the screws. After this stage, the sprocket assembly should be able to freely rotate around the axis of the connector shaft with little friction. Subsequently, 2 grub screws were added to the 2 holes on the connector shaft to grip onto the motor.
+2.**Use M3*8 inner hexagon screws on both sides to lock the bearing wheel copper column**
 
- *Insert next picture lol*
+![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/3.png)
+
+3.**Fixed bearing wheel copper column on both sides**
