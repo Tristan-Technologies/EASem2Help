@@ -2,7 +2,7 @@
 
 As the central theme of our project revolves around a treaded vehicle, we were given a Common Carrier Platform that was purchased off Aliexpress. It was a simple, tank chassis frame constructed out of steel and aluminum which was very sturdy and precisely machined.
 
-While the tank chassis did not come with any instruction manual itself, there was an [online guide](https://github.com/SmartArduino/SZDOITWiKi/wiki/Robot-car-Preface) uploaded to Github for us to follow along. The guide on Github provided a step by step breakdown on how to assemble the components. As the first order of business, the team decided that it was prudent to take inventory of all the components provided in the kit. This allowed us an overview of what components we had and how many were available to us during the assembly process. It would also facilitate finding spare parts should the need arise. Our breakdown was as follows:
+While the tank chassis did not come with any instruction manual itself, there was an [online guide](https://github.com/SmartArduino/SZDOITWiKi/wiki/Robot-car-Preface) uploaded to Github for us to follow along. The guide on Github provided a step by step breakdown on how to assemble the components. As the first order of business, the team decided that it was prudent to take inventory of all the components provided in the kit. This gave us an overview of what components we had and how many were available to us during the assembly process. It would also facilitate finding spare parts should the need arise. Our breakdown was as follows:
 
 
 *(Camillia add in the breakdown and the picture of all the parts together pls big thank -tristan)*
@@ -36,6 +36,3 @@ While the tank chassis did not come with any instruction manual itself, there wa
 ![(hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/8.png)
 
 7.**M4 screw lock the connector and secure the load bearing wheel**
-
-
-
