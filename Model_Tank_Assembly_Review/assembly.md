@@ -1,4 +1,4 @@
-## Model tank Assembly Process
+# Model tank Assembly Process
 
 As the central theme of our project revolves around a treaded vehicle, we were given a Common Carrier Platform that was purchased off Aliexpress. It was a simple, tank chassis frame constructed out of steel and aluminum which was very sturdy and precisely machined.
 
@@ -8,31 +8,31 @@ While the tank chassis did not come with any instruction manual itself, there wa
 *(Camillia add in the breakdown and the picture of all the parts together pls big thank -tristan)*
 
 ## Installation steps:
-### 1 Install load bearing wheel
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/WeChat%20Image_20200211154000.jpg)
+1. Install load bearing wheel
+![Install load bearing wheel](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/WeChat%20Image_20200211154000.jpg)
 
-1.**Install the load bearing wheel at the round hole circled in yellow**
+2.**Install the load bearing wheel at the round hole circled in yellow**
 
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/2.png)
+![Install load bearing wheel into hole](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/2.png)
 
-2.**Use M3*8 inner hexagon screws on both sides to lock the bearing wheel copper column**
+3.**Use M3*8 inner hexagon screws on both sides to lock the bearing wheel copper column**
 
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/3.png)
+![Lock bearing wheel column](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/3.png)
 
-3.**Fixed bearing wheel copper column on both sides**
+4.**Fixed bearing wheel copper column on both sides**
 
-![(hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/WeChat%20Image_20200211155834.png)
+![(Fix bearing wheel column on both sides](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/WeChat%20Image_20200211155834.png)
 
-4.**Center round holes on both sides of the bearing wheel are put into the bearing**
+5.**Center round holes on both sides of the bearing wheel are put into the bearing**
 
-![(hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/5.png)
+![Center round holes on bearing wheels](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/5.png)
 
-5.**Lock the connector with M2 screw after passing through the bearings on both sides**
+6.**Lock the connector with M2 screw after passing through the bearings on both sides**
 
-![(hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/7.png)
+![(Lock connector with M2 screw](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/7.png)
 
-6.**Place the gasket on top of the connector and the short M4 hexagon socket screw passes through the other side of the bracket**
+7.**Place the gasket on top of the connector and the short M4 hexagon socket screw passes through the other side of the bracket**
 
-![(hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/8.png)
+![(Place gasket on top of connector](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/8.png)
 
-7.**M4 screw lock the connector and secure the load bearing wheel**
+8.**M4 screw lock the connector and secure the load bearing wheel**
