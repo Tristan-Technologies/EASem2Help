@@ -1,6 +1,6 @@
 # Interface  :bookmark_tabs:
-Interfacing of the mine shaft shows how the wires are connected inside.
-Help to track the connection when there is some problem with the wiring.
+Shows how the wires are connected inside.
+Help to track down connections if there is a problem with the wiring.
 <details>
 <summary>Interface </summary>
 <ul>
