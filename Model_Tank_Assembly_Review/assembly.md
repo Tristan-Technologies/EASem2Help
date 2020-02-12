@@ -20,3 +20,22 @@ While the tank chassis did not come with any instruction manual itself, there wa
 ![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/3.png)
 
 3.**Fixed bearing wheel copper column on both sides**
+
+![(hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/WeChat%20Image_20200211155834.png)
+
+4.**Center round holes on both sides of the bearing wheel are put into the bearing**
+
+![(hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/5.png)
+
+5.**Lock the connector with M2 screw after passing through the bearings on both sides**
+
+![(hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/7.png)
+
+6.**Place the gasket on top of the connector and the short M4 hexagon socket screw passes through the other side of the bracket**
+
+![(hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/8.png)
+
+7.**M4 screw lock the connector and secure the load bearing wheel**
+
+
+
