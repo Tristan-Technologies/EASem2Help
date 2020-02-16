@@ -1,5 +1,5 @@
 #### Python Programming
-Read our team's review for programming in the Python Language! Our Mobile Solar Energy system will use Python in its controller unit :)
+Read our team's review for programming in the Python Language! Our UGV will use (Micro)Python in its controller unit :)
 
 [Link to Tristan's Review](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Python_Code_and_Reviews/Reviews/python%20stuff.md)
 

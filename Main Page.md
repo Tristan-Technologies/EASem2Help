@@ -32,20 +32,20 @@
 </ul>
 <li>
 
-  [Interface](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Interface.md)  :bookmark_tabs:
+  [Working with the ESP 32](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Interface.md)  :bookmark_tabs:
 
   </li>
   <ul>
+  <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/ESP32_main.md">ESP32 Setup and Usage</a></li>
   <li>Pin Configuration</li>
   <li>Color Code</li>
   <li>Schematic Drawing </li>
   </ul>
 <br>
 <li>
-  Micropython and the ESP 32 </li>
+  Working With Micropython </li>
   <ul>
     <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/Python_Code_and_Reviews/Main_Python.md#python-programming">Micropython Programming</a></li>
-    <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/ESP32_main.md">ESP32 Setup and Usage</a></li>
     <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/software_dev.md">Software Development for the UGV</a></li>
       <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/software_download.md">UGV Software Download</a></li>
   </ul>
