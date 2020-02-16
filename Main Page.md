@@ -42,10 +42,12 @@
   </ul>
 <br>
 <li>
-  Reviews and Usage Guides </li>
+  Micropython and the ESP 32 </li>
   <ul>
-    <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/Python_Code_and_Reviews/Main_Python.md#python-programming">Python Programming</a></li>
+    <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/Python_Code_and_Reviews/Main_Python.md#python-programming">Micropython Programming</a></li>
     <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/ESP32_main.md">ESP32 Setup and Usage</a></li>
+    <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/software_dev.md">Software Development for the UGV</a></li>
+      <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/software_download.md">UGV Software Download</a></li>
   </ul>
 
 <br>
