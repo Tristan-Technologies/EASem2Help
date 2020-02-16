@@ -31,9 +31,9 @@
 
 </ul>
 <li>
-  
+
   [Interface](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Interface.md)  :bookmark_tabs:
-  
+
   </li>
   <ul>
   <li>Pin Configuration</li>
@@ -65,25 +65,20 @@
 # **Project Abstract**
 
 
-In response to a need for easily available energy sources in humanitarian crisis situations, the feasibility of a mobile solar energy generator, mounted on a mobile, ruggedized platform is investigated. The proposed system is designed for both immediate relief in the period right after the disaster as well as extended use, as a quasi permanent energy production installation. It may also be used to complement existing energy generation sources like Diesel Generators, to form a hybrid energy solution.
-
+In response to a need for a system that is capable of conducting unmanned reconnaissance and data gathering operations in dangerous subterranean (underground) environments like caves and mineshafts, we have developed a Unmanned Ground Vehicle that is equipped with sensors that can relay environmental conditions to human operators remotely, allowing them to make the decision if the environment is safe for humans to explore and if so, what protective measures are needed.
 
 
 # **Introduction**
 
-In the context of disaster relief, Solar energy is a logical choice to turn to in order to meet the energy demands of humanitarian relief efforts. As opposed to Internal Combustion Engine Generators (examples of which are diesel and petrol), which require a steady supply of fuel, solar energy requires no such consumables, dramatically simplifying the logistical support required to adopt it as an energy solution. This freed up logistical capacity can then be used for much more valuable purposes in the humanitarian relief effort.
+In the context of cave exploration or mine prospecting, it is often necessary enter the structure and collect samples, or otherwise physically survey the environment. However, these subterranean structures may harbour numerous hazards, and it is often not wise to send humans into an unknown and potentially life threatening environment.
 
 
+There are a numerous dangers associated with such subterranean structures. One of them that we consider is the accumulation of toxic or otherwise hazardous gases inside such structures. These gases may be the result of previous human activity (as in the case of abandoned mineshafts), or due to natural processes. There are 2 direct dangers associated with such gas buildup: 1) Displacement of oxygen leading to suffocation 2) Should oxygen be present, the possibility of ignition of the flammable gas in the presence of a spark/naked flame. In very extreme cases, people have died within feet of mine openings. In either case, knowledge of the atmospheric composition of the structure would allow surveying/research teams to better equip themselves for manned exploration.
 
-A good example would be Puerto Rico after Hurricane Maria. The automaker Tesla offered its solar power systems to aid in the disaster relief effort, powering a Children's hospital which serves 3000. The logistical simplicity of Solar allows it to be deployed in a matter of hours, greatly increasing its efficacy and restoring power rapidly.
+Other hazards could include low structural integrity of the cave/mineshaft, resulting in potential collapse of the structure. Any water found in the cave might also be highly acidic or alkaline, posing another hazard to humans.
 
+In response to this, our Unmanned cave exploration vehicle is equipped with a gas sensor, allowing it to detect the concentration of hazardous gases in the air. Furthermore, given that the purpose of the vehicle is to complement research, it is also equipped with a dual axis gimbaled camera (elevation and azimuth) that allows it to stream live video from the vehicle back to its control station. This aids in steering the vehicle and also allows experts to look use collected images for subsequent analysis.
 
-
-Having mentioned all of this, it has to be noted that Solar power does not form a core component of NGO disaster relief efforts, most of which would still rather stock up on traditional energy systems like diesel generators. Depending on the locality of where the solar Photovoltaic (PV) panels are deployed, energy output may also vary. These PV systems have proven to be sensitive to ambient weather conditions, with something as simple as a cloudy day reducing energy output.
-
-
-
-Then there is the question of getting the PV panels to where they need to be, which depending on their generation capacity, may be fairly formidable in size. If PV panels were to be deployed to Nepal after an earthquake, for an instance, they would need some method of traversing the mountainous terrain which is characteristic of the Nepalese environment.
 
 ## **Members**
 * Camilla
@@ -94,7 +89,7 @@ Then there is the question of getting the PV panels to where they need to be, wh
 
 
 # **Design process**
-#### Concerned
+#### Concerns
 *  Lack of energy after disaster
 
 
