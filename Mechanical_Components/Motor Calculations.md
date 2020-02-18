@@ -1,3 +1,7 @@
 # Motor Calculations
 
 When designing our UGV, we had to ascertain the necessary parameters performance parameters of our vehicle. We used the default Motor characteristics given to us as well as the following formulas for our calculations:
+
+**Default Motor Characteristics**
+
+![Motor characteristics](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Default%20motor%20parameters.png)
