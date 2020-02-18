@@ -16,3 +16,7 @@ After some discussion, we decided that we would use a joystick as our input devi
 Due to the nature of our project, we had to have wireless control and telemetry. Our robot is supposed to sniff out any dangerous gas pockets that would either blow up or suffocate any unsuspecting person that wanders into the subterranean. Thus, wireless control is the only viable option to keep people as far as possible from danger.
 
 In order to test our concept, we decided upon using MQTT and WiFi to prove our concept in lieu of more potent wireless communication technology. We chose MQTT due to its lightweight nature and ease of setup. We can make use of existing MQTT broker software available online to allow for a machine of choice (A laptop in our case) to serve as a broker. Think of a broker like a kind of server. We used [Eclipse Mosquitto](mosquitto.org) as our software of choice in this project.
+
+We referred to [RandomNerdTutorials](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/) to build up the controller's program to be capable of decoding and transmitting the joystick inputs and the robot's program to interpret the values transmitted.
+
+# Part III: Testing, Testing
