@@ -32,14 +32,47 @@
   [Joystick](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#joystick)
   
 </li>
-
+<li>
+ 
+ [L298N]()
 </details>
 
 
 # Power control citcuit
 ![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/power2.png)
 
-In our power contol circuit, we have two 3.7v lithium battery. We series two 3.7v battery so that we can get 7.4v and 3000mAh total  capcitor.
+In our power contol circuit, we have two 3.7v lithium battery. We series two 3.7v battery so that we can get 7.4v and 3000mAh total  capcitor. 
+### How does the circuit work
+There's one switch on the main line control the whole circutit.
+The battery indicator is connecting parallel with the power source.
+A boost convert is parallel connect to the battery , boost the voltage from 7.4 to 12v for the motor.
+Another parallel branch connected with ESP32 by using female to male DC power adaptor.
+
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/adaptor.png)
+**female to male DC power adaptor**
+
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/shield.png)
+**ESP32 Shield**
+
+### Boost converter
+We use MT3608 boost converter to boost our voltage from 7.4v to 12v to power our motor.
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/boost_converter.png)
+
+For more information about MT3608,please click [Here](https://datasheetspdf.com/pdf/909246/AEROSEMI/MT3608/1)
+
+#### What is a Boost Converter?
+A boost converter is one of the simplest types of switch mode converter. As the name suggests, it takes an input voltage and boosts or increases it. All it consists of is an inductor, a semiconductor switch (these days it’s a MOSFET, since you can get really nice ones these days), a diode and a capacitor. Also needed is a source of a periodic square wave.
+The biggest advantage boost converters offer is their high efficiency – some of them can even go up to 99%! In other words, 99% of the input energy is converted to useful output energy, only 1% is wasted.
+
+#### How Does a Boost Converter Work? 
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/Boost-Converter-2.png)
+
+When signal source goes high, it will turning on the MOSFET. All the current is diverted through to the MOSFET through the inductor.The power source isn’t immediately short circuited since the inductor makes the current ramp up relatively slowly. Also, a magnetic field builds up around the inductor. 
+The MOSFET is turned off and the current to the inductor is stopped abruptly.
+Inductor responds to this by generating a large voltage with the opposite polarity of the voltage originally supplied to it using the energy stored in the magnetic field to maintain that current flow.
+The inductor now acts like a voltage source in series with the supply voltage. This means that the anode of the diode is now at a higher voltage than the cathode and is forward biased.
+The output capacitor is now charged to a higher voltage than before, which means that we have successfully stepped up a low DC voltage to a higher one.
+
 
 # MQ135
 
@@ -95,6 +128,16 @@ The kind of program that we need to monitor the joystick has to make a polling t
 The following code includes a method called treatValue() that is transforming the sensor's messurement into a value between 0 and 9 and sends it in ASCII back to the computer. This allows to easily send the information into e.g. Flash and parse it inside your own code.
 
 
+## L298N
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/word-image-13.png)
+
+
+The L298N is a dual H-Bridge motor driver which allows speed and direction control of two DC motors at the same time. The module can drive DC motors that have voltages between 5 and 35V, with a peak current up to 2A.The module has two screw terminal blocks for the motor A and B, and another screw terminal block for the Ground pin, the VCC for motor and a 5V pin which can either be an input or output.This depends on the voltage used at the motors VCC. The module have an onboard 5V regulator which is either enabled or disabled using a jumper. If the motor supply voltage is up to 12V we can enable the 5V regulator and the 5V pin can be used as output.
+Here in our case ,we use 12v as external power for the motor.
+
+Next are the logic control inputs. The Enable A and Enable B pins are used for enabling and controlling the speed of the motor. If a jumper is present on this pin, the motor will be enabled and work at maximum speed, and if we remove the jumper we can connect a PWM input to this pin and in that way control the speed of the motor. 
+
+Next, the Input 1 and Input 2 pins are used for controlling the rotation direction of the motor A, and the inputs 3 and 4 for the motor B. Using these pins we actually control the switches of the H-Bridge inside the L298N IC. If input 1 is LOW and input 2 is HIGH the motor will move forward, and vice versa, if input 1 is HIGH and input 2 is LOW the motor will move backward.
 
 
 
