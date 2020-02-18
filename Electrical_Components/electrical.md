@@ -1,5 +1,15 @@
 <details>
-<summary>Electical components list</summary>
+<summary>Power control circuit</summary>
+ <ul>
+ <li>
+     
+   [Boost converter]()
+</li>
+<li>
+  
+  [Power calculation]()
+</ul>
+<summary>Electical components</summary>
 <ul>
 <li>
 
@@ -8,15 +18,28 @@
  </li>
  <li>
   
-   [Battery indicator](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#mq135)  
-     
+   [Battery indicator](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#battery-indicator)  
 </li>
+<ul>
+  <li>
+    
+   [TL431 Voltage Monitor Circuit](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#tl431-voltage-monitor-circuit)
+  </li>
+  
+</ul>
 <li>
   
-  [Joystick]()
+  [Joystick](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#joystick)
   
 </li>
+
 </details>
+
+
+# Power control citcuit
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/power2.png)
+
+In our power contol circuit, we have two 3.7v lithium battery. We series two 3.7v battery so that we can get 7.4v and 3000mAh total  capcitor.
 
 # MQ135
 
@@ -61,6 +84,16 @@ For example,if we use R1 =2.21K, R2=1K ,by applying the formulea, we can get hig
 
 ## Joystick 
 Our group use Joystick to control our motor and servo.
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/joystick.jpg)
+
+How this works
+
+The joystick in the picture is nothing but two potentiometers that allow us to messure the movement of the stick in 2-D. Potentiometers are variable resistors and, in a way, they act as sensors providing us with a variable voltage depending on the rotation of the device around its shaft.
+
+The kind of program that we need to monitor the joystick has to make a polling to two of the analog pins. We can send these values back to the computer, but then we face the classic problem that the transmission over the communication port has to be made with 8bit values, while our DAC (Digital to Analog Converter - that is messuring the values from the potentiometers in the joystick) has a resolution of 10bits. In other words this means that our sensors are characterized with a value between 0 and 1024.
+
+The following code includes a method called treatValue() that is transforming the sensor's messurement into a value between 0 and 9 and sends it in ASCII back to the computer. This allows to easily send the information into e.g. Flash and parse it inside your own code.
+
 
 
 
