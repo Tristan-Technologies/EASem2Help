@@ -46,8 +46,12 @@ In the process of building our prototype, we found that the Joystick is too sens
 
 The toggle switch is connected to a pin which is pulled high to 3.3V when the switch is flipped. Flipping the switch allows the controller to operate in servo control mode instead of motor control.
 
-
-
-
-
 ![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/Pin_Configuration/joystick_vsp.png)
+
+
+## Color code for voltage level
+In our case, we only have two voltage level.
+1.7.4v from battery  
+2.12v for motor
+7.4V we use red and black to indicate vcc and ground ,12v we use blue and balck to indicate positive and negative.
+
