@@ -9,47 +9,47 @@ While the tank chassis did not come with any instruction manual itself, there wa
 
 ## Installation steps:
 ### 1.0: Install load bearing wheel
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/WeChat%20Image_20200211154000.jpg)
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/WeChat%20Image_20200211154000.jpg)
 
 1.1: **Install the load bearing wheel at the round hole circled in yellow**
 
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/2.png)
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/2.png)
 
 1.2: **Use M3*8 inner hexagon screws on both sides to lock the bearing wheel copper column**
 
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/3.png)
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/3.png)
 
 1.3: **Fixed bearing wheel copper column on both sides**
 
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/WeChat%20Image_20200211155834.png)
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/WeChat%20Image_20200211155834.png)
 
 1.4: **Center round holes on both sides of the bearing wheel are put into the bearing**
 
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/5.png)
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/5.png)
 
 1.5: **Lock the connector with M2 screw after passing through the bearings on both sides**
 
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/7.png)
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/7.png)
 
 1.6: **Place the gasket on top of the connector and the short M4 hexagon socket screw passes through the other side of the bracket**
 
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/8.png)
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/8.png)
 
 1.7: **M4 screw lock the connector and secure the load bearing wheel**
 
 ### 2.0: Installing the drive wheel
 
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/2.1.png)
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/2.1.png)
 
 2.1: **First, go through the M3*8 inner hexagon screw on each drive wheel to lock the copper column of the drive wheel**
 
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/2.22.png)
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/2.22.png)
 
 2.2 **Lock the copper column with M3 inner hexagon screws on both sides**
 
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/2.3.png)
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/2.3.png)
 
 2.3: **Use a small wrench to temporarily secure the top wire to the small round hole of the coupling**
 
 ### 3.0: Install the drive wheel on the motor
-![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/3.1.png)
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/3.1.png)
