@@ -12,9 +12,9 @@ joystickY.atten(ADC.ATTN_0DB)
 joystickX.width(ADC.WIDTH_10BIT)    #Determines value at ADC pin during joystick deflection, 10 bit provides 1024 available level states
 joystickY.width(ADC.WIDTH_10BIT)
 
-config = {"wifiSSID": "Пингвин Сетиь",
-          "wifiPass": "Penguinnetwork",
-          "ip": "192.168.43.94",
+config = {"wifiSSID": "YOUR_SSID_HERE",
+          "wifiPass": "YOUR_PASSWORD_HERE",
+          "ip": "YOUR_IP_HERE",
           "nodeId": "Node1"}
 
 channel_Motor = b'/motor'
@@ -43,7 +43,7 @@ def quadrant1(r, theta):  #Forward, Right
     return (PWMA, PWMB, mode)
 
 def quadrant2(r, theta):  #Backward, Right
-    
+
     mode = "2"
     joystickLimitMin = 0
     joystickLimitMax = 512
@@ -54,7 +54,7 @@ def quadrant2(r, theta):  #Backward, Right
     return (PWMA, PWMB, mode)
 
 def quadrant3(r, theta):  #Backward, Left
-    
+
     mode = "3"
     joystickLimitMin = 0
     joystickLimitMax = 512
@@ -66,7 +66,7 @@ def quadrant3(r, theta):  #Backward, Left
 
 
 def quadrant4(r, theta):  #Forward, Left
-    
+
     mode = "4"
     joystickLimitMin = 0
     joystickLimitMax = 512
@@ -93,96 +93,91 @@ c.connect()
 print('Connected to %s MQTT broker, subscribed to %s topic' % (config["ip"], channel_Motor))
 
 while True:
-    
+
     #Read cartesian raw value from ADC and offset
     #Update: Implemented Time averaging for Joystick signal and additional correction
     x = 0
     y = 0
     n = 0
-    
+
     while n < 100:
         n = n + 1
-        xn = joystickX.read() 
+        xn = joystickX.read()
         yn = joystickY.read()
         xn = xn - 511
         yn = yn - 511
         x = x + xn
         y = y + yn
         time.sleep_us(10)
-   
+
     X_TRIM = 0    #Additional trim variables to account for non 0 neutral reading (still abit flawed)
     Y_TRIM = 0
-    
+
     X_THRESHOLD_MAX = 10  #Thresholds to define dead zone
     X_THRESHOLD_MIN = -10
     Y_THRESHOLD_MAX = 10
     Y_THRESHOLD_MIN = -10
-    
+
     xcorrected = -(x / 100) - X_TRIM
     ycorrected = (y / 100) + Y_TRIM
-    
+
     if xcorrected < X_THRESHOLD_MAX and xcorrected > X_THRESHOLD_MIN:      #Filtering for signal fluctuation
         xcorrected = 0
-    
+
     if ycorrected < Y_THRESHOLD_MAX and ycorrected > Y_THRESHOLD_MIN:
         ycorrected = 0
 
     if xcorrected > 512:                          #Maximum and Minimum readings
         xcorrected = 512
-    
+
     elif xcorrected < -511:
         xcorrected = -511
-        
+
     if ycorrected > 512:
         ycorrected = 512
-    
+
     elif ycorrected < -511:
         ycorrected = -511
-        
-    
+
+
     #Compute polar coordinate from corrected cartersian value and correct again for angular (theta) and radial (r) values
     r, theta = cart2pol(xcorrected, ycorrected)
-    
+
     if r > 512:
         r = 512
-        
+
     #if theta < 0:
      #theta=-theta + math.pi
 
     #Execute control law based on quadrant position
     if ((0 <= theta) and (theta <= (math.pi/2))):     #0 deg < theta < 90 deg  -> Quadrant 1
         (dutyA, dutyB, mode) = quadrant1(r, theta)
-        
-        
+
+
     elif (((math.pi/2) < theta) and (theta <= (math.pi))):      #90 deg < theta < 180 deg  -> Quadrant 2
         (dutyA, dutyB, mode) = quadrant2(r, theta)
-        
-        
+
+
     elif ((-math.pi/2) > theta and theta >= -math.pi):      #180 deg < theta < 270 deg  -> Quadrant 3
         (dutyA, dutyB, mode) = quadrant3(r, theta)
-        
-        
+
+
     elif ((0) > theta and theta >= (-math.pi/2)):       #270 deg < theta < 360 deg  -> Quadrant 4
         (dutyA, dutyB, mode) = quadrant4(r, theta)
-        
-        
+
+
     else:                                                       #Motor stop if no deflection is detected/signal faulty
         mode = '0'
         dutyA = '0'
         dutyB = '0'
-        
+
     mode = str(mode)
     dutyA = str(dutyA)
     dutyB = str(dutyB)
     command = '%s,%s,%s' %(mode, dutyA, dutyB)
-    
+
     print('%s'%(command))
-    
+
     c.publish(channel_Motor, command)
-    
+
     time.sleep_ms(50)
-    
-        
-    
-        
-        

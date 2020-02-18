@@ -16,7 +16,7 @@ def clearscreen():
     oled.fill(0)
     oled.show()
 
-# ESP32 Pin assignment 
+# ESP32 Pin assignment
 i2c = I2C(-1, scl=Pin(22), sda=Pin(21))
 
 # ESP8266 Pin assignment
@@ -34,9 +34,9 @@ oled.show()
 time.sleep(3)
 #-----------------------------------------------------------------Wifi (Ground Control Segement) Init--------------------------
 
-config = {"wifiSSID": "Пингвин Сетиь",
-          "wifiPass": "Penguinnetwork",
-          "ip": "192.168.43.94",
+config = {"wifiSSID": "YOUR_SSID_HERE",
+          "wifiPass": "YOUR_PASSWORD_HERE",
+          "ip": "YOUR_IP_HERE",
           "nodeId": "Node2"}
 
 channel_Motor = b'/motor'
