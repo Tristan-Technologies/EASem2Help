@@ -38,5 +38,16 @@ Firstly, on the advice of the manufacturer, we will be excluding the pins *D0, D
 
 **Pulse Width Modulation (PWM)** - PWM is used when control of intensity is required, eg. in the case of controlling motor speed or LED brightness. Fortunately the board supports PWM output on all of its GPIO pins, with the exception of course, of those mentioned at the start.
 
-## Pin configuration of esp32 in control box: 
+## Pin configuration of esp32 in control box:
 ![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/Pin_Configuration/ESP322.png)
+This ESP32 is used in the controller unit. This ESP32 is connected to a Joystick and a toggle switch. The joystick provides the basis for generating directional commands. 2 pins are connected which monitor the voltage across the x and y axis potentiometers respectively Pins Vx and Vy) These pins are read in via the ADC.
+
+In the process of building our prototype, we found that the Joystick is too sensitive. Thus, we designed a voltage divider circuit that we could tap off to bring the supply voltage of joystick lower to around 1v.
+
+The toggle switch is connected to a pin which is pulled high to 3.3V when the switch is flipped. Flipping the switch allows the controller to operate in servo control mode instead of motor control.
+
+
+
+
+
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/Pin_Configuration/joystick_vsp.png)
