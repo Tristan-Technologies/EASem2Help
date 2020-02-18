@@ -41,6 +41,9 @@
 # Power control citcuit
 ![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/power2.png)
 
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/power_circuit.png)
+ **Schematic Drawing**
+
 In our power contol circuit, we have two 3.7v lithium battery. We series two 3.7v battery so that we can get 7.4v and 3000mAh total  capcitor. 
 ### How does the circuit work
 There's one switch on the main line control the whole circutit.
