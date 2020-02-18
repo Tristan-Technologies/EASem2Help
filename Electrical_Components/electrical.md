@@ -3,7 +3,7 @@
  <ul>
  <li>
      
-   [Boost converter]()
+   [Boost converter](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#boost-converter)
 </li>
 <li>
   
@@ -34,7 +34,7 @@
 </li>
 <li>
  
- [L298N]()
+ [L298N](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#l298n)
 </details>
 
 
