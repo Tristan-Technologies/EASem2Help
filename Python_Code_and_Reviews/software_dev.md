@@ -13,4 +13,6 @@ After some discussion, we decided that we would use a joystick as our input devi
 
 ## Part II: Telemetry galore
 
-Due to the nature of our project, we had to have wireless control and telemetry. Our robot is supposed to sniff out any dangerous gas pockets that would either blow up or suffocate any unsuspecting person that wanders into the subterranean (Or for that matter, near any entrance to the underground. There have been reports of people collapsing in front of abandoned mines from toxic gases spilling out). Thus, wireless control is the only viable option to keep people as far as possible from danger.
+Due to the nature of our project, we had to have wireless control and telemetry. Our robot is supposed to sniff out any dangerous gas pockets that would either blow up or suffocate any unsuspecting person that wanders into the subterranean. Thus, wireless control is the only viable option to keep people as far as possible from danger.
+
+In order to test our concept, we decided upon using MQTT and WiFi in lieu of more potent wireless communication technology.
