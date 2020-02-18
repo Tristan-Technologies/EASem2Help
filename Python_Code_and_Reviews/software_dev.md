@@ -19,7 +19,7 @@ In order to test our concept, we decided upon using MQTT and WiFi to prove our c
 
 We referred to [RandomNerdTutorials](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/) as a basis to build up the controller's program to be capable of decoding and transmitting the joystick inputs and the robot's program to interpret the values transmitted. Additionally, we made use of the data packets being broadcasted by the robot to piggy back gas sensor readings to the operator. The code for our robot can be found [here](https://github.com/Tristan-Technologies/EASem2Help/tree/master/Python_Code_and_Reviews/MQTT_Receiver_Code).
 
-Subsequently, we added and ESP32 CAM to serve as the eyes, or eye if so preferred, to the robot. This required that we did a more traditional Web server as there is no possible way for MQTT, which can only broadcast short messages at best, to handle a video stream.
+Subsequently, we added an ESP32 CAM to serve as the eyes, or eye if so preferred, to the robot. This required that we did a Web server to handle the video stream as there is no possible way for MQTT, which can only broadcast short messages at best, to handle a video stream.
 
 ### Part III: Testing, Testing
 
