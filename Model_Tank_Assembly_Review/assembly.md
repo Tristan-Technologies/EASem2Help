@@ -23,7 +23,7 @@ While the tank chassis did not come with any instruction manual itself, there wa
 
 ![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/WeChat%20Image_20200211155834.png)
 
-1.4:**Center round holes on both sides of the bearing wheel are put into the bearing**
+1.4: **Center round holes on both sides of the bearing wheel are put into the bearing**
 
 ![hihi](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Model_Tank_Assembly_Review/Images/5.png)
 
