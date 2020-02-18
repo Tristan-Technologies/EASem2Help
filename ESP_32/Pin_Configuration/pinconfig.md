@@ -7,7 +7,7 @@ The primary means of interfacing the ESP 32 with other peripherals and hardware 
 
 Attached here is the modified version of the diagram which shows which pins that are in use by our project:
 
-![Standard Pin Configuration](../Pin_Configuration/Pictures/esp32_pinout_custom.jpg)
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/Pin_Configuration/ESP321.png)
 
 
 The particular model of the board used in this project is the ESP32-DevKitC V4. Schematics for the layout of this board are made available on Espressifs website [here](https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch.pdf) and while not strictly necessary, these provide insight into the board's inner workings.
@@ -37,3 +37,6 @@ Firstly, on the advice of the manufacturer, we will be excluding the pins *D0, D
 **Digital Analog Converter (DAC)** - The DAC does the exact opposite function of the ADC: It converts digital output into an analogue one. This functionality is only available on pins 25 (GPIO25) and 26 (GPIO26)
 
 **Pulse Width Modulation (PWM)** - PWM is used when control of intensity is required, eg. in the case of controlling motor speed or LED brightness. Fortunately the board supports PWM output on all of its GPIO pins, with the exception of course, of those mentioned at the start.
+
+## Pin configuration of esp32 in control box: 
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/Pin_Configuration/ESP322.png)
