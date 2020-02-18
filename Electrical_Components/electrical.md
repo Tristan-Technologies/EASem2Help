@@ -76,7 +76,7 @@ Inductor responds to this by generating a large voltage with the opposite polari
 The inductor now acts like a voltage source in series with the supply voltage. This means that the anode of the diode is now at a higher voltage than the cathode and is forward biased.
 The output capacitor is now charged to a higher voltage than before, which means that we have successfully stepped up a low DC voltage to a higher one.
 
-
+# Electrical components
 # MQ135
 
 ![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/MQ135.png)
