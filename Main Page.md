@@ -55,10 +55,12 @@
   Analysis of System </li>
 
 <br>
-    <li>Ground Vehicle Performance</li>
+    <li>Mechanical Components of our Vehicle</li>
       <ul>
         <li>Range and Endurance</li>
-        <li>Mechanical Loading Limitations</li>
+        <li>Motor Requirements</li>
+        <li>Fusion360 Model</li>
+        <li>Camera Gimbal</li>
       </ul>
 
 
