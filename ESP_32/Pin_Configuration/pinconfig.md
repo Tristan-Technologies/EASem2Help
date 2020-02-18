@@ -40,3 +40,6 @@ Firstly, on the advice of the manufacturer, we will be excluding the pins *D0, D
 
 ## Pin configuration of esp32 in control box: 
 ![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/Pin_Configuration/ESP322.png)
+This esp32 is for the control box.This esp32 is connected to a Joystick and a toggle switch.In the process of bulidng our prototype,we find our Joystick is too sensitive.In order to make it less sensitive, we design a voltage divide to force the voltage of joystick lower around 1v.
+For the toggle switch, it's connected to 3.3v and pin4. Once it's toggled , pin4 will read a digital high signal and the control mode will switch to servo.
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/Pin_Configuration/joystick_vsp.png)
