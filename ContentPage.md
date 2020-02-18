@@ -1,9 +1,9 @@
-# _Mine Shaft Probe_  :mount_fuji:
+# _CAVEBOT UGV_  :mount_fuji:
 
 **Table of Contents**
 
 <details>
-<summary>Mine Shaft Probe</summary>
+<summary>CAVEBOT UGV</summary>
 <ul>
 <li>
 
