@@ -8,11 +8,9 @@ This page serves to provide the documentation required to set up the ESP32 micro
 
 ### General information
 
-[Flashing Guide](../ESP_32/Flashing_Guide/esp32_flashing.md)
-
-This is mandatory for using MicroPython at all with the ESP32
-
-[Pin Configuration](../ESP_32/Pin_Configuration/pinconfig.md)
+[Flashing Guide](../ESP_32/Flashing_Guide/esp32_flashing.md): This is mandatory for using MicroPython at all with the ESP32
+>
+[Pin Configuration](../ESP_32/Pin_Configuration/pinconfig.md):
 
 [Basic IO Operations](../ESP_32)
 
@@ -26,3 +24,5 @@ This is mandatory for using MicroPython at all with the ESP32
 
 ### ESP32 CAM specific information
 [Code used](../Python_Code_and_Reviews/ESP32_Cam_Code)
+
+**Note** The ESP32 CAM runs off standard Arduino code as support for the ESP32 CAM video streaming module, as of writing, required a custom build of MicroPython. We favoured the speed of implementation over the risk of incompatibility due to time constraints. See [here](https://github.com/tsaarni/micropython-with-esp32-cam/wiki) for how to do so.

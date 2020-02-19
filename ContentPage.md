@@ -54,19 +54,19 @@
         <li>Camera Gimbal</li>
       </ul>
 <li>
-  
+
  [Power control circuit](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#power-control-citcuit)</li>
  <ul>
  <li>
-     
+
    [Boost converter](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#boost-converter)
 </li>
 <li>
-  
+
   [Power calculation]()
 </ul>
 <li>
- 
+
 [Electical components](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#electrical-components)
 </li>
 <ul>
@@ -76,24 +76,24 @@
 
  </li>
  <li>
-  
+
    [Battery indicator](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#battery-indicator)  
 </li>
 <ul>
   <li>
-    
-    
+
+
  [TL431 Voltage Monitor Circuit](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#tl431-voltage-monitor-circuit)
   </li>
-  
+
 </ul>
 <li>
-  
+
   [Joystick](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#joystick)
-  
+
 </li>
 <li>
- 
+
  [L298N](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#l298n)
  </li>
 </details>
@@ -106,14 +106,14 @@ In response to a need for a system that is capable of conducting unmanned reconn
 
 # **Introduction**
 
-In the context of cave exploration or mine prospecting, it is often necessary enter the structure and collect samples, or otherwise physically survey the environment. However, these subterranean structures may harbour numerous hazards, and it is often not wise to send humans into an unknown and potentially life threatening environment.
+In the context of cave exploration or mine prospecting, it is often necessary enter the structure and collect samples, or otherwise physically survey the environment. However, these subterranean structures may harbour numerous hazards, and it is often unwise to send humans into an unknown and potentially life threatening environment right away.
 
 
-There are a numerous dangers associated with such subterranean structures. One of them that we consider is the accumulation of toxic or otherwise hazardous gases inside such structures. These gases may be the result of previous human activity (as in the case of abandoned mineshafts), or due to natural processes. There are 2 direct dangers associated with such gas buildup: 1) Displacement of oxygen leading to suffocation 2) Should oxygen be present, the possibility of ignition of the flammable gas in the presence of a spark/naked flame. In very extreme cases, people have died within feet of mine openings. In either case, knowledge of the atmospheric composition of the structure would allow surveying/research teams to better equip themselves for manned exploration.
+There are a numerous dangers associated with such subterranean structures. One of them is the accumulation of toxic or otherwise hazardous gases inside such structures. These gases may be the result of previous human activity (as in the case of abandoned mineshafts), or due to natural processes. There are 2 direct dangers associated with such gas buildup: 1) Displacement of oxygen leading to suffocation 2) Should oxygen be present, the possibility of ignition of the flammable gas in the presence of a spark/naked flame. In very extreme cases, people have died within feet of mine openings. In either case, knowledge of the atmospheric composition of the structure would allow surveying/research teams to better equip themselves for manned exploration.
 
 Other hazards could include low structural integrity of the cave/mineshaft, resulting in potential collapse of the structure. Any water found in the cave might also be highly acidic or alkaline, posing another hazard to humans.
 
-In response to this, our Unmanned cave exploration vehicle is equipped with a gas sensor, allowing it to detect the concentration of hazardous gases in the air. Furthermore, given that the purpose of the vehicle is to complement research, it is also equipped with a dual axis gimbaled camera (elevation and azimuth) that allows it to stream live video from the vehicle back to its control station. This aids in steering the vehicle and also allows experts to look use collected images for subsequent analysis.
+In response to this, our unmanned cave exploration vehicle is equipped with a gas sensor, allowing it to detect the concentration of hazardous gases in the air. Furthermore, given that the purpose of the vehicle is to complement research, it is also equipped with a dual axis gimbaled camera (elevation and azimuth) that allows it to stream live video from the vehicle back to its control station. This aids in steering the vehicle and also allows experts to look at and use collected images or video for subsequent analysis.
 
 
 ## **Members**
@@ -121,6 +121,3 @@ In response to this, our Unmanned cave exploration vehicle is equipped with a ga
 * Tristan
 * Yong Ziab
 * Fang Qian
-
-
-

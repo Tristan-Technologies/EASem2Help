@@ -88,7 +88,7 @@ The output capacitor is now charged to a higher voltage than before, which means
 By finding the voltage and the current draw of all our elctrical components, we find the overall power consumption which is 17.27w.
 Total capacitor of our battery is 3000mAh, we suggest the derating factor is 0.85 so that we can get actual battery capacity 2550 mAh.
 Since we series the circuit,the voltage of our power supply is 7.4v , hence we can find the overall available battery energy is 18.87wh by applying formula 2550mAh/1000 * 7.4v.
-Here we assume the dissipative loss factor is 0.1 for the energy loss transmitted in wires.According to the data that we get, applying the formula 18.87Wh/(17.27*(1+0.1)) we can find the battery life in our prototype is 0.993h, which is 59.99mins.
+Here we assume the dissipative loss factor is 0.1 for the energy loss transmitted in wires. According to the data that we get, applying the formula 18.87Wh/(17.27*(1+0.1)) we can find the battery life in our prototype is 0.993h, which is 59.99mins.
 
 ![asd](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/Powe_calculation.png)
 
@@ -105,7 +105,7 @@ Here is the circuit in MQ135:
 
 ![asd](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/Gas_sensor.png)
 
-For more information,please click [here](http://www.waveshare.net/w/upload/2/24/MQ-135-Gas-Sensor-UserManual.pdf)
+For more information, click [here](http://www.waveshare.net/w/upload/2/24/MQ-135-Gas-Sensor-UserManual.pdf)
 
 # Battery indicator
 ![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/battery_indicator.png)
@@ -144,7 +144,7 @@ The joystick in the picture is nothing but two potentiometers that allow us to m
 
 The kind of program that we need to monitor the joystick has to make a polling to two of the analog pins. We can send these values back to the computer, but then we face the classic problem that the transmission over the communication port has to be made with 8bit values, while our DAC (Digital to Analog Converter - that is messuring the values from the potentiometers in the joystick) has a resolution of 10bits. In other words this means that our sensors are characterized with a value between 0 and 1024.
 
-The following code includes a method called treatValue() that is transforming the sensor's messurement into a value between 0 and 9 and sends it in ASCII back to the computer. This allows to easily send the information into e.g. Flash and parse it inside your own code.
+The following code includes a method called treatValue() that is transforming the sensor's measurement into a value between 0 and 9 and sends it in ASCII back to the computer. This allows to easily send the information into e.g. Flash and parse it inside your own code.
 
 
 ## L298N
@@ -154,6 +154,6 @@ The following code includes a method called treatValue() that is transforming th
 The L298N is a dual H-Bridge motor driver which allows speed and direction control of two DC motors at the same time. The module can drive DC motors that have voltages between 5 and 35V, with a peak current up to 2A.The module has two screw terminal blocks for the motor A and B, and another screw terminal block for the Ground pin, the VCC for motor and a 5V pin which can either be an input or output. This depends on the voltage used at the motors VCC. The module have an onboard 5V regulator which is either enabled or disabled using a jumper. If the motor supply voltage is up to 12V we can enable the 5V regulator and the 5V pin can be used as output.
 Here in our case ,we use 12v as external power for the motor.
 
-Next are the logic control inputs. The Enable A and Enable B pins are used for enabling and controlling the speed of the motor. If a jumper is present on this pin, the motor will be enabled and work at maximum speed, and if we remove the jumper we can connect a PWM input to this pin and in that way control the speed of the motor. 
+Next are the logic control inputs. The Enable A and Enable B pins are used for enabling and controlling the speed of the motor. If a jumper is present on this pin, the motor will be enabled and work at maximum speed, and if we remove the jumper we can connect a PWM input to this pin and in that way control the speed of the motor.
 
 Next, the Input 1 and Input 2 pins are used for controlling the rotation direction of the motor A, and the inputs 3 and 4 for the motor B. Using these pins we actually control the switches of the H-Bridge inside the L298N IC. If input 1 is LOW and input 2 is HIGH the motor will move forward, and vice versa.
