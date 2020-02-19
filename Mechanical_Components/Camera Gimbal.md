@@ -1,6 +1,6 @@
 # Camera Gimbal
 
-In order for us survey the interior of the mine, we designed a dual axis camera Gimbal for rotation along the x-y axis.
+In order for us to survey the interior of the target underground structure, we designed a dual axis camera gimbal for rotation along the x and y axis.
 
 ![camera gimbal](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Pictures/Camera%20Gimbal.png)
 
