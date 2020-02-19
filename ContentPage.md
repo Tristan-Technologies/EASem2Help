@@ -23,15 +23,6 @@
 </ul>
 <li>
 
-  [Design process](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#design-process)  :bulb:</li>
-<ul>  
-  <li>Concerned</il>
-  <li>Design</il>
-  <li>implement</il>
-
-</ul>
-<li>
-
   [Working with the ESP 32](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Interface.md)  :bookmark_tabs:
 
   </li>
@@ -62,8 +53,49 @@
         <li>Fusion360 Model</li>
         <li>Camera Gimbal</li>
       </ul>
+<li>
+  
+ [Power control circuit](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#power-control-citcuit)</li>
+ <ul>
+ <li>
+     
+   [Boost converter](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#boost-converter)
+</li>
+<li>
+  
+  [Power calculation]()
+</ul>
+<li>
+ 
+[Electical components](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#electrical-components)
+</li>
+<ul>
+<li>
 
+  [MQ135](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#mq135)  
 
+ </li>
+ <li>
+  
+   [Battery indicator](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#battery-indicator)  
+</li>
+<ul>
+  <li>
+    
+    
+ [TL431 Voltage Monitor Circuit](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#tl431-voltage-monitor-circuit)
+  </li>
+  
+</ul>
+<li>
+  
+  [Joystick](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#joystick)
+  
+</li>
+<li>
+ 
+ [L298N](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#l298n)
+ </li>
 </details>
 
 # **Project Abstract**
@@ -92,9 +124,3 @@ In response to this, our Unmanned cave exploration vehicle is equipped with a ga
 
 
 
-# **Design process**
-#### Concerns
-*  Lack of energy after disaster
-
-
-# **Reviews and Processes**
