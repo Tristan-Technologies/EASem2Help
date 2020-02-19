@@ -21,9 +21,10 @@ This is mandatory for using MicroPython at all with the ESP32
 [Output]()
 
 ### Robot ESP32 specific information
-[]()
+[Code used](../Python_Code_and_Reviews/MQTT_Receiver_Code)
 
 ### Controller ESP32 specific information
-
+[Code used](../Python_Code_and_Reviews/MQTT_Controller_Code)
 
 ### ESP32 CAM specific information
+[]
