@@ -16,10 +16,9 @@ Having established operating parameters for the motor, we are able to focus our 
 ![Motor characteristics_2](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Pictures/Motor%20parameters_2.png)
 ![Motor characteristics_3](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Pictures/Motor%20parameters_3.png)
 
-**Maximum Velocity**
-Velocity of the vehicle can be calculated based on the angular velocity and wheel radius:
+**Maximum Velocity** of the vehicle can be calculated based on the angular velocity and wheel radius:
 
 _Formula:_ ![Vmax](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Pictures/Vmax.png)
 
-which yields 0.91 m/s, satisfying the first requirement.
+Based on a motor speed of 350rpm and a wheel radius of 2.5 cm, Vmax yields 0.91 m/s, satisfying the first requirement.
 
