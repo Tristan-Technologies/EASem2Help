@@ -13,7 +13,7 @@
 </ul>
 <li>
  
- [Electical components](
+ [Electical components]
 </li>
 <ul>
 <li>
@@ -44,7 +44,7 @@
 
 
 # Power control citcuit
-![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/power2.png)
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/power3.png)
 
 ![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/power_circuit.png)
  **Schematic Drawing**
@@ -82,12 +82,14 @@ The inductor now acts like a voltage source in series with the supply voltage. T
 The output capacitor is now charged to a higher voltage than before, which means that we have successfully stepped up a low DC voltage to a higher one.
 
 # Power calculation 
-![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/Powe_calculation.png)
 
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/power_consum.png)
 By finding the voltage and the current draw of all our elctrical components, we find the overall power consumption which is 17.27w.
 Total capacitor of our battery is 3000mAh, we suggest the derating factor is 0.85 so that we can get actual battery capacity 2550 mAh.
 Since we series the circuit,the voltage of our power supply is 7.4v , hence we can find the overall available battery energy is 18.87wh by applying formula 2550mAh/1000 * 7.4v.
 Here we assume the dissipative loss factor is 0.1 for the energy loss transmitted in wires.According to the data that we get, applying the formula 18.87Wh/(17.27*(1+0.1)) we can find the battery life in our prototype is 0.993h, which is 59.99mins.
+
+![](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/Powe_calculation.png)
 
 # Electrical components
 # MQ135
