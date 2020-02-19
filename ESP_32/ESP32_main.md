@@ -16,9 +16,7 @@ This is mandatory for using MicroPython at all with the ESP32
 
 [Basic IO Operations](../ESP_32)
 
-[ADC Usage]()
-
-[Output]()
+[Description of the code used](../Python_Code_and_Reviews/software_download.md)
 
 ### Robot ESP32 specific information
 [Code used](../Python_Code_and_Reviews/MQTT_Receiver_Code)
@@ -27,4 +25,4 @@ This is mandatory for using MicroPython at all with the ESP32
 [Code used](../Python_Code_and_Reviews/MQTT_Controller_Code)
 
 ### ESP32 CAM specific information
-[]
+[Code used](../Python_Code_and_Reviews/ESP32_Cam_Code)
