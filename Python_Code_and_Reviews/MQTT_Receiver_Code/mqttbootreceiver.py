@@ -7,9 +7,9 @@ import network
 import esp
 import math
 
-config = {"wifiSSID": "YOUR_SSID_HERE",
-          "wifiPass": "YOUR_PASSWORD_HERE",
-          "ip": "YOUR_IP_HERE",
+config = {"wifiSSID": "Пингвин Сетиь",
+          "wifiPass": "Penguinnetwork",
+          "ip": "192.168.43.94",
           "nodeId": "Node2"}
 
 channel_Motor = b'/motor'
