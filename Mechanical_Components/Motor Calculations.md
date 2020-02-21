@@ -38,5 +38,5 @@ To prevent traction issues (ie. tracks skidding on the ground), it is necessary 
 ![Max Tractive Torque](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Pictures/max.torque.png)
 ![Max Tractive Torque Curve](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Pictures/Max%20Tractive%20torque%20graph.png)
 
-As expected, the MTT decreases as the angle increases. At an angle of 0 degrees, the MTT available is 2.45 kgcm, slightlty below that of the motor at its rated operating torque. This indicates that the vehicle's tracks would have a propensity to skid when it firsts starts moving from rest. This was indeed observed when the vehicle was tested. Because the motor did not exceed the available MTT by much, the skidding was still manageable and did not hamper the vehicle's performance too much
+As expected, the MTT decreases as the angle increases. At an angle of 0 degrees, the MTT available is 1.575 kgcm, below that of the motor at its rated operating torque. This indicates that the vehicle's tracks would have a propensity to skid when it firsts starts moving from rest. This was indeed observed when the vehicle was tested. Because the motor did not exceed the available MTT by too much, the skidding was still manageable and did not excessively hamper the vehicle's performance.
 
