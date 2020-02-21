@@ -36,7 +36,7 @@ Based on the above parameters and calculations, we establish that the motor torq
 To prevent traction issues (ie. tracks skidding on the ground), it is necessary to ensure that the motor torque does not exceed (or exceed by too much) the Maximum Tractive Torque. Since the MTT is dependent upon friction and thus the normal reaction force of the tank, it makes sense to consider the variation of MTT for various inclination angles since that would cause the available normal reaction force acting on the vehicle to change. Thus, an expression was developed for this purpose, using the static friction coefficient for concrete (mu_s = 0.9):
 
 ![Max Tractive Torque](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Pictures/max.torque.png)
-![Max Tractive Torque Curve](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Pictures/Max.%20Tractive%20torque%20graph.png)
+![Max Tractive Torque Curve](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Pictures/Max%20Tractive%20torque%20graph.png)
 
 As expected, the MTT decreases as the angle increases. At an angle of 0 degrees, the MTT available is 2.45 kgcm, slightlty below that of the motor at its rated operating torque. This indicates that the vehicle's tracks would have a propensity to skid when it firsts starts moving from rest. This was indeed observed when the vehicle was tested. Because the motor did not exceed the available MTT by much, the skidding was still manageable and did not hamper the vehicle's performance too much
 
