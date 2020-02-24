@@ -63,7 +63,7 @@
 </li>
 <li>
 
-  [Power calculation]()
+[Power calculation]()
 </ul>
 <li>
 
@@ -96,6 +96,7 @@
 
  [L298N](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#l298n)
  </li>
+
 </details>
 
 # **Project Abstract**
