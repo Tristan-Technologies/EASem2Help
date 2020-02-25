@@ -1,0 +1,9 @@
+## Tristan's Reflection
+
+Over the course of the module, I was pushed to the limit in terms of both technical and soft skills. While tiring, the module has been fruitful and I have learned much from this journey.
+
+From a technical standpoint, being an Aeronautical Engineering student (with a primary background in mechanical work) I did not expect myself to be handling the coding for the microcontroller. Nonetheless, I shouldered this responsibility primarily because I was the one who created the mathematical models required to interface the joystick (a feature unique only to us!) with the microcontroller. It followed that I was in the best position to build upon that work, incorporating wireless functionality into the interface, etc. This unexpected swap in roles led to me developing a much more in depth understanding of object oriented programming (classes, constructors, etc.) and a better understanding of computer networking. This is something that my normal course could not have provided me with.
+
+In terms of soft skills, this entire project had required me to learn how to motivate people (something I should *probably* practice more). Given that we were doing many things differently compared to the majority of the others, there was an overhanging sense of 'what if we got it all wrong??' within the team, something which I had to try very hard address. While everyone was enthusiastic about working on the project, it was very difficult to integrate all the various different components together, and even more difficult to get everyone together at the same time given that we had vastly different schedules and working styles.
+
+While satisfactory, I feel that our system, in its current state, has room for much more improvement, and could prove to be very useful in the future
