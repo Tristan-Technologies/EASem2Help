@@ -1,0 +1,30 @@
+# My thoughts about the project
+
+This project challenged what I understood about, well, realising
+a product. To bring something to existence, like in the case of this project,
+takes more than just simply building what you have in mind. You have to make many decisions, such as
+those pertaining to the electrical circuitry of the robot, all the way to the degree of tension in the vehicle's tracks.
+
+To provide an example, early on in the development timeline in the robot, it was sufficient for testing purposes to simply provide 5V and Ground directly, and connect the pins on the
+joystick for the X and Y axis potentiometers directly to the pins on the microcontroller.
+
+However, we discovered rather quickly that the joystick was extremely sensitive to even the slightest bump against the joystick,
+which would make control nearly impossible. This stumbling block is only aggravated by the fact that the mathematical model
+underlying the variable speed and direction control of the robot is dependent on the degree of deflection on either axis.
+
+After doing some research, we found that the Analog-to-Digital Conversion (ADC) on the
+microcontroller can work on smaller increments of voltage than the default setting 
+we were accustomed to. We deduced that if we can reduce the size of each
+step, we can reduce the sensitivity of the joystick. We found information that led us to that conclusion [here](https://hackaday.io/project/13424-lipsync/log/45600-joystick-sensitivity-modification). So, I went ahead to design a voltage divider
+circuit that would drastically reduce the supply voltage of the joystick from 5 volts to 1 volt. Additionally, we had to change some settings of the microcontroller's ADC capability
+via code to ensure it would translate the lower voltage correctly for the mathematical model
+to compute speed and direction. For reference, we modified adc.atten() and adc.width()
+based on information from the MicroPython Docs [here](https://docs.micropython.org/en/latest/esp32/quickref.html#adc-analog-to-digital-conversion).
+
+Finally, we arrived on the final design for the joystick circuit [here](..\ESP_32\Pin_Configuration\joystick_vsp.png). It provided the sensitivity
+reduction desired and made robot control far smoother. We experimented with adding 100nF ceramic capacitors between the potentiometers' outputs and ground, but that
+caused input lag even though it smoothed out the inputs sent to the microcontroller. I attribute that phenomenon to the charging and discharging time of the capacitors
+becoming substantial in our quest to smooth out the user's input.
+
+Through this project, it opened my eyes towards the degree of consideration required to design
+even one facet of a product.
