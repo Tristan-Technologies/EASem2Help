@@ -7,30 +7,30 @@
 <ul>
 <li>
 
-  [Project Abstract](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#project-abstract)  :page_with_curl:
+  [Project Abstract](https://github.com/Tristan-Technologies/EASem2Help/blob/master/ContentPage.md#project-abstract)  :page_with_curl:
 
  </li>
 <ul>
 <li>
 
- [Introduction](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#introduction)
+ [Introduction](https://github.com/Tristan-Technologies/EASem2Help/blob/master/ContentPage.md#introduction)
  </li>
 <li>
 
-  [Members](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Tracked-Solar-Plant.md#members)
+  [Members](https://github.com/Tristan-Technologies/EASem2Help/blob/master/ContentPage.md#members)
 
 </li>
 </ul>
 <li>
 
-  [Working with the ESP 32](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Interface.md)  :bookmark_tabs:
+  [Working with the ESP 32](https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32)  :bookmark_tabs:
 
   </li>
   <ul>
   <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/ESP32_main.md">ESP32 Setup and Usage</a></li>
-  <li>Pin Configuration</li>
-  <li>Color Code</li>
-  <li>Schematic Drawing </li>
+  <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/Pin_Configuration">Pin Configuration</a></li>
+  <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/">Color Code</a</li>
+  <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/ESP_32/">Schematic Drawing</a></li>
   </ul>
 <br>
 <li>
@@ -48,10 +48,10 @@
 <br>
     <li>Mechanical Components of our Vehicle</li>
       <ul>
-        <li>Range and Endurance</li>
-        <li>Motor Requirements</li>
-        <li>Fusion360 Model</li>
-        <li>Camera Gimbal</li>
+        <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Range_and_Endurance.md">Range and Endurance</a></li>
+        <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Motor%20Calculations.md">Motor Requirements</a></li>
+        <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Fusion360%20Model.md">Fusion360 Model</a></li>
+        <li><a href="https://github.com/Tristan-Technologies/EASem2Help/blob/master/Mechanical_Components/Camera%20Gimbal.md">Camera Gimbal</a></li>
       </ul>
 <li>
 
@@ -63,7 +63,7 @@
 </li>
 <li>
 
-[Power calculation]()
+[Power calculation](https://github.com/Tristan-Technologies/EASem2Help/blob/master/Electrical_Components/electrical.md#Power-calculation)
 </ul>
 <li>
 
